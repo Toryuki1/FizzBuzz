@@ -5,7 +5,7 @@ public class Multiples {
 
     public static void main(String[] args) {
 
-        System.out.println(multiples(16, 3, 5));
+        System.out.println(multiples(1000, 3, 5));
     }
 
     public static int multiples(int n, int a, int b) {
@@ -16,5 +16,10 @@ public class Multiples {
             }
         }
         return count;
+    }
+
+    public static int multiples() {
+        return multiples(1000, 3, 5);
+
     }
 }
